@@ -1,0 +1,12 @@
+[global]
+
+filename=./fio
+runtime=60
+numjobs=1
+rwmixwrite=33
+blocksize=16Ki
+filesize=1Gi
+rw=randrw
+direct=1
+
+[job]
